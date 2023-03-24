@@ -14,6 +14,7 @@
 ## Índice
 
 - [Índice](#índice)
+- [Adendo](#adendo)
 - [Sobre o projeto](#sobre-o-projeto)
 - [Como Executar](#como-executar)
 
