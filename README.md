@@ -20,12 +20,12 @@
 
 <br>
 <a id="sobre-o-projeto"></a>
-## Sobre o projeto
-:memo: Essa Api usa como base o framework [SlimFramework](https://www.slimframework.com/) na versão <b>3</b> e a biblioteca pré pronta do [Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton) para deixar algumas configurações pré feitas.
-
+## Sobre o projeto<br>
+<p>:memo: Essa Api usa como base o framework [SlimFramework](https://www.slimframework.com/) na versão <b>3</b> e a biblioteca pré pronta do [Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton) para deixar algumas configurações pré feitas.</p>
+<p>
 Esta api está configurada somente para leitura utilizando o método GET para retornar um JSON que contem um objeto lista de link ou objeto de link especifico referente a uma imagem.
-<a id="adendo"></a>
-##Adendo
+<a id="adendo"></a></p>
+##Adendo<br>
 Esta API tem configurado middleware de autenticação por token para deixar a api mais segura, que no caso esta desabilitado, para habilitar so necessita descomentar o trecho de código  comentado em `src\middleware.php` em caso de dúvidas acesse a [documentação](https://www.slimframework.com/docs/v3/concepts/middleware.html) sobre Middleware.
 
 Caso Habilite o acesso a api somente com token você pode criar  o mesmo pela própria api,
@@ -38,7 +38,7 @@ para isso essa api conta com a biblioteca [tuupola/slim-jwt-auth](https://github
 apos ter a secretkey configurada basta criar uma tabela no banco de dados com o nome <b>usuarios</b> e os campos <b>id, nome, email, senha</b><br>
 você poderá preencher esses campos ou criar uma requisição na própria api para isso, assim cada usuário poderá ter um token de acesso.
 Para gerar o token basta acessar via postman ou insomnia pelo caminho usando método POST:<br> `http://localhost/otg-api/public/api/token` <br>
-E em body selecionar:  
+E em body selecionar:<br>  
 * x-www-form-urlencoded<br> 
 
 Para poder criar um formulário com os campos e mail e senha, assim que colocar o email e senha que conta na tabela <b>usuarios</b> basta dar envio dessa requisição para retornará um token de acesso a api.  
@@ -66,7 +66,7 @@ A Api usa o mesmo Eloquent que existe no framework Laravel o [Illuminate Databas
 
 <a id="executar"></a>
 
-## Como Executar
+## Como Executar<br>
 
 Para executar esta aplicação como desenvolvimento, use o seguinte comando abaixo:
 
