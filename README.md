@@ -19,12 +19,17 @@
 
 
 <br>
+
 <a id="sobre-o-projeto"></a>
+
 ## Sobre o projeto<br>
-<p>:memo: Essa Api usa como base o framework [SlimFramework](https://www.slimframework.com/) na versão <b>3</b> e a biblioteca pré pronta do [Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton) para deixar algumas configurações pré feitas.</p>
-<p>
+
+:memo: Essa Api usa como base o framework [SlimFramework](https://www.slimframework.com/) na versão <b>3</b> e a biblioteca pré pronta do [Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton) para deixar algumas configurações pré feitas.
+
 Esta api está configurada somente para leitura utilizando o método GET para retornar um JSON que contem um objeto lista de link ou objeto de link especifico referente a uma imagem.
-<a id="adendo"></a></p>
+
+<a id="adendo"></a>
+
 ##Adendo<br>
 Esta API tem configurado middleware de autenticação por token para deixar a api mais segura, que no caso esta desabilitado, para habilitar so necessita descomentar o trecho de código  comentado em `src\middleware.php` em caso de dúvidas acesse a [documentação](https://www.slimframework.com/docs/v3/concepts/middleware.html) sobre Middleware.
 
