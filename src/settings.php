@@ -18,17 +18,17 @@ return [
         
         // DB settings
         'db'=> [
-            'driver' => 'mysql',
-            'host' => 'localhost',
-            'database' => '',
-            'username' => '',
-            'password' => '',
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix' => '',
-        ],
+			'driver' => 'mysql',
+			'host' => 'localhost',
+			'database' => 'database',
+			'username' => 'root',
+			'password' => 'password',
+			'charset' => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix' => '',
+	    ],
         //secret
-        'secretKey'=>'565c455179da4992074d03fa34302455f3aef453'
+        'secretKey'=>'insira qualquer serie  paravra como secretKey'
     
     ],
 ];
